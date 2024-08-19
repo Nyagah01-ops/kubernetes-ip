@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myflaskapp-config
+data:
+  FLASK_APP: app.app
+  FLASK_ENV: development
